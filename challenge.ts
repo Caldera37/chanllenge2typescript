@@ -7,7 +7,7 @@
 };
 
 
-const prettyPrintWilder = (users: User[]) => { 
+const prettyPrintWilder = (users: User[]): void => { 
 
 
     users.map((user: User) => { 
@@ -21,7 +21,7 @@ const prettyPrintWilder = (users: User[]) => {
   
   
   
-  const wilders : User[] = [];
+  const wilders  : User[] = [];
   
   const user1: User = { name: "Pierre", age: 23 };
   
