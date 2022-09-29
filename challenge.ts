@@ -25,7 +25,7 @@ const prettyPrintWilder = (users: User[]): void => {
   
   const user1: User = { name: "Pierre", age: 23 };
   
-  const user2:  User = { name: "Paul", age: "32" };
+  const user2:  User = { name: "Paul", age: 32 };
   
   const user3: User = { name: "Jacques", age: 25 };
   
